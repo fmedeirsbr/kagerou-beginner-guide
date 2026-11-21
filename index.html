@@ -52,6 +52,7 @@ td.n { white-space:nowrap; } tr.star td:first-child::before { content:"★ "; co
 .gt { font-size:12.5px; } .gt span { color:var(--gold); font-weight:600; } .gt span.purple, .purple { color:var(--purple); font-weight:600; } .blue { color:var(--blue); font-weight:600; }
 .tips li, .check li { margin:6px 0; } .check { list-style:none; padding-left:0; } .check li::before { content:"☐ "; color:var(--accent); }
 .foot { color:var(--muted); font-size:12.5px; margin-top:12px; }
+.next { margin:14px 0 0; } .next a { display:inline-block; background:var(--accent2); color:#fff; text-decoration:none; font-weight:600; border-radius:10px; padding:10px 16px; }
 @media (max-width:640px) { .two, .flow { grid-template-columns:1fr; } .hero h1 { font-size:22px; } .rung { flex-direction:column; align-items:flex-start; } }
 .i-item_kamaitachi{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACXklEQVR42q2VPWgTYRjHf3cWl4ZSVND2ak9LBZ06VR0KIogULEIHcbFuIm4VnFyCIIKDCLXayUKLkMGhNlINEQejQ/ASIUGI9ISYNgmpUFvThkARzsHmzX281+uHDxzcex+/53n+93+fU9hGzN66Kr1+73vSsX7Sfx7A6jx6kNm4CaC08P/CevxzHoCB3CFxUd0LMdx7VsDT8SlujgzTo2tMr2cAFIDADl5FPkDimbTiTYiVjk9x5cZdAHp0DaCRhH2BcEApGFJ4vlK3+vYfIbuxBMDK7zXS2W+ieseJH9weSrMTK1+p03/qAGeGBxh/EBUVu5meBF9SPxzrBbPgWPetRgGs8CMFTT+MuTbH7QvHMHK/mF7PeHjiGywvW44bhXxB2lmm/bI11Gui6SsMj1xk/P4SRu6fe66H+jzPqzK4PbpP6G7tASgVlvicyLjV8IBa/OD6cd3dhQVgJA2MJExGTrKYyvBnxXS7Si7RVhuocWIkm24Kv1gFOkhXywAMttWkhlEDwAJeLJbp6NIcD6S/poU8sWorO0lg2V1ULJab8+daO6c3jAZcscsiS6L6wT/GEx6LAsxNviNfqfvuIXuS0Zlo8Cwa6jW5FEqJ9cS8CqAMttV834lVWxmdiUo7ENU3YjGVI5st0tXV6QDEqq34JYm9jzS967KpSHAu9Ik7L6viRqm0EDhe7OBAF23CFcnhicG2mhTuTiCqf/32zZaVuqOhtyykG80mB5rWvaffnOoecO7q7cm2q/uWHciApdICmtbN8+mHO+6gxT7Qno5N+Gq/G7hHoiA5dhN/AUYj+fS9/PEpAAAAAElFTkSuQmCC)}
 .i-item_kagekiri{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACfUlEQVR42q2VT0jTYRjHP782bUFoaDKa2yAqNEnYYWTMw3bzEBQLugeewkvUyUOnyh0q8qDstHNEkikV7NQUGhgzf7BqQoq06Wqm4qaQ0+Tt4H5vW7/f/rh64Qfv87z8nu/z/T7P874KFdYV/11DfyqfKLFddh+AKJhK8dkR6lguu08LCoC6HBGPAgOYdlK6T6mHAUBrmxUA97lWADEXVzFiYOYfV+zLujDtpNi3ODDtpHQJl5XIZrMZuUWRLFKG2bVFAGXf4tD9UJHBBWezzvcxmRUFGUQ2t83CbgZAUZcjuOw+jQmGepVjcOP6bbn/9tMiAF5Hx7ns8WvBFIDZtUVZfA1EKVfc2ExI53f39MvidhzbEG/jCRx2Z4k06z8ycj85fu9QRRYA4VdDAISB7k4vq1uNotVykGxx8Ko1cPf0A3BUbEifz9NFn+cxAA+e3AFQ8tkFsf4nAaUqwOjDp4Sjn6WdV1oYuOYE4Nb9EbJbS3R3egGIz0/R3emtOEs1TfLoi6RY+H68rjkx/509QJ+nC4BGm1OejYVGALC6PKyyJ/3x+SncPWfrY7CbTsqvqakFy5lTxe0tpTHqOB2DwPA07K0Ydo92z2TUKFaXx1Dz2EyIdDptzCAwPG2IvrRpZmnTTDa3zbv34wBKRo1KqWpZJRLlGtrJNbRL+/SJX+Lrp4gMrvk1kEMXuRjoZJtJ2r0X/XJfANPkAmDuzVhZAOVSRy9XbwYMtf8QeVb2ztKAjHSvpYtEZDJIKqFWvBCrBZcAE8FBJoKDJQfZleTB+5tQNaBDB9fVYCI4SHO7s0RC+dAXQBznXfVPciFzUe2teP5ytGaAcjX4L8EBfgOOtPeGjfLBRgAAAABJRU5ErkJggg==)}
@@ -242,7 +243,7 @@ td.n { white-space:nowrap; } tr.star td:first-child::before { content:"★ "; co
 <li>8 Kathryne Keyron + 4 Angeling once you reach Bio Lab and Nameless</li>
 <li>Pacts Blood + Agony + Grace, pet Isis, dishes Tongue + Mastela + Scorpions</li>
 </ul>
-<p class="foot">Made from the game's own 0.2.7 files. Item, card and skill names stay in English, as the community uses them.</p>
+<p class="next"><a href="https://fmedeirsbr.github.io/kagerou-bleed-guide/">Advanced and Expensive Kagerou Guide &rarr;</a></p>
 </section></div><div class="lang" id="lang-pt" lang="pt-BR">
 <header class="hero"><i class="ico i-skill_left_hand_mastery heroic"></i><div><h1>Kagerou / Oboro: Guia do Iniciante até o Hell 15</h1><p>Da sua primeira run até o Hell 15. Sem cartas de MVP, Star Potential até roxo (Epic). Midgard Survivors 0.2.7.</p></div></header>
 
@@ -353,7 +354,7 @@ td.n { white-space:nowrap; } tr.star td:first-child::before { content:"★ "; co
 <li>8 Kathryne Keyron + 4 Angeling quando chegar em Bio Lab e Nameless</li>
 <li>Pactos Blood + Agony + Grace, pet Isis, pratos Tongue + Mastela + Scorpions</li>
 </ul>
-<p class="foot">Feito a partir dos arquivos do próprio jogo, versão 0.2.7. Nomes de itens, cartas e skills ficam em inglês, como a comunidade usa.</p>
+<p class="next"><a href="https://fmedeirsbr.github.io/kagerou-bleed-guide/">Advanced and Expensive Kagerou Guide &rarr;</a></p>
 </section></div><div class="lang" id="lang-es" lang="es">
 <header class="hero"><i class="ico i-skill_left_hand_mastery heroic"></i><div><h1>Kagerou / Oboro: Guía de principiante hasta Hell 15</h1><p>Desde tu primera partida hasta Hell 15. Sin cartas de MVP, Star Potential hasta morado (Epic). Midgard Survivors 0.2.7.</p></div></header>
 
@@ -464,7 +465,7 @@ td.n { white-space:nowrap; } tr.star td:first-child::before { content:"★ "; co
 <li>8 Kathryne Keyron + 4 Angeling cuando llegues a Bio Lab y Nameless</li>
 <li>Pactos Blood + Agony + Grace, mascota Isis, platos Tongue + Mastela + Scorpions</li>
 </ul>
-<p class="foot">Hecho con los archivos del propio juego, versión 0.2.7. Los nombres de objetos, cartas y habilidades quedan en inglés, como los usa la comunidad.</p>
+<p class="next"><a href="https://fmedeirsbr.github.io/kagerou-bleed-guide/">Advanced and Expensive Kagerou Guide &rarr;</a></p>
 </section></div><div class="lang" id="lang-zh" lang="zh-Hant">
 <header class="hero"><i class="ico i-skill_left_hand_mastery heroic"></i><div><h1>Kagerou / Oboro：新手到 Hell 15 攻略</h1><p>從第一場遊戲到 Hell 15。不用 MVP 卡片，星之潛能最多紫色（史詩）。Midgard Survivors 0.2.7。</p></div></header>
 
@@ -575,7 +576,7 @@ td.n { white-space:nowrap; } tr.star td:first-child::before { content:"★ "; co
 <li>到達生體研究所與無名島後湊齊 8 張 Kathryne Keyron + 4 張 Angeling</li>
 <li>契約 鮮血 + 苦痛 + 恩典，寵物 Isis，料理 Tongue + Mastela + Scorpions</li>
 </ul>
-<p class="foot">根據遊戲 0.2.7 版本檔案製作。物品、卡片與技能名稱保留英文，與社群用法一致。</p>
+<p class="next"><a href="https://fmedeirsbr.github.io/kagerou-bleed-guide/">Advanced and Expensive Kagerou Guide &rarr;</a></p>
 </section></div>
 <script>
 var LBL = {en:["Dark mode","Light mode"], pt:["Modo escuro","Modo claro"], es:["Modo oscuro","Modo claro"], zh:["深色模式","淺色模式"]};
